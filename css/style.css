@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+
+/* header */
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+#my-navigation{
+    position: relative;
+    top: 2rem;
+    color: #fff;
+    background: none;
+    border: 0;
+}
+#my-navigation a{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#my-navigation .logo{
+    border-radius: 4px;
+    background-color: #25a2c3;
+    padding: 13px 12px;
+    font-weight: 600;
+}
+#my-navigation .navbar-brand{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+#my-navigation .navbar-toggle .icon-bar{
+    background-color: #fff;
+    border-color: #fff;
+}
+.header .banner{
+    text-align: center;
+    padding-top: 15%;
+}
+.banner h1{
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+.banner p{
+    font-size: 1.2rem;
+    margin: 1rem 0 2rem 0;
+}
+.banner .btn{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    background-color: #25a2c3;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: 0.4rem;
+    margin-top: 1.5rem;
+}
+
+/* three-section */
+.three-section{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+.custom-row-1{
+    padding: 4rem 0;
+}
+.three-section .box{
+    padding: 0 1rem;
+    text-align: center;
+}
+.box h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.box .fa{
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+.box p{
+    font-size: 1rem;
+    color: grey;
+    line-height: 1.7rem;
+}
+.box .btn{
+    width: 9rem;
+    height: 2.5rem;
+    border: none;
+    background-color: #25a2c3;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    margin-top: 2rem;
+}
+
+/* big-section */
+.big-section{
+    width: 100%;
+    background-color: #101214;
+    color: #fff;
+}
+.custom-row-2{
+    padding: 3rem 0;
+}
+.left-top-sec h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.left-top-sec img{
+     width: 100%;
+     border-radius: 0.5rem;
+     margin-top: 1rem;
+}
+.left-top-sec p{
+     padding: 1rem 0;
+     color: darkgray;
+     line-height: 1.7rem;
+}
+.left-top-sec a{
+     color: #fff;
+}
+.left-top-sec .btn{
+     width: 9rem;
+     height: 2.5rem;
+     border: none;
+     background-color: #25a2c3;
+     font-family: 'Open Sans', sans-serif;
+     color: #fff;
+     font-size: 1.2rem;
+     border-radius: 0.3rem;
+     margin: 2rem 0;
+}
+ .left-top-sec hr{
+     height: 0.1px;
+     border: none;
+     background-color: darkgray;
+}
+.left-bottom .left-left .leftA ,.leftB{
+    margin-bottom: 2rem;
+}
+.left-bottom .left-left .leftA h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+}
+.left-bottom .left-left .leftA p{
+    font-size: 0.8rem;
+    color: darkgrey;
+    line-height: 1.7rem;
+}
+.left-bottom .left-left .leftB, .leftC{
+   margin-top: 1rem;
+}
+.left-bottom .left-left .leftB .btn, .leftC .btn{
+    width: 6.5rem;
+    height: 2.1rem;
+    border: none;
+    background-color: #25a2c3;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 0.2rem;
+}
+.left-bottom .left-left .leftB h5, .leftC h5{
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: right;
+    margin-top: -1.6rem;
+}
+.left-bottom .left-left .leftB p, .leftC p{
+    color: darkgrey;
+    padding-top: 2.5rem;
+    line-height: 1.7rem;
+}
+.left-bottom .left-left .leftB hr{
+    height: 0.1px;
+    border: none;
+    background-color: darkgrey;
+    margin-top: 1.3rem;
+}
+.left-bottom .left-rightA h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.left-bottom .left-rightA h5{
+    font-size: 0.96rem;
+}
+.left-bottom .left-rightB h5, .left-rightC h5{
+    padding-top: 0.7rem;
+    font-size: 1rem;
+}
+.left-bottom .left-rightA li, .left-rightB li, .left-rightC li{
+    font-size: 0.8rem;
+    padding: 1rem 0  0.5rem  0;
+    color: darkgrey;
+    line-height: 1.6rem;
+}
+.left-bottom .left-rightA hr, .left-bottom .left-rightB  hr{
+    height: 0.1px;
+    border: none;
+    background-color: darkgrey;
+}
+.right-section .right-top .right-topA h4, .right-topB h4{
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+} 
+.right-section .right-top .right-topA li, .right-topB  li{
+    font-size: 0.9rem;
+    color: darkgrey;
+    font-weight: 200;
+}
+.right-section .right-top .right-topA hr, .right-topB hr{
+    height: 0.1px;
+    background-color: darkgrey;
+    border: none;
+    margin: 0.6rem 0;
+}  
+.right-bottom  h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-bottom: 2.5rem;
+}
+.right-bottom .right-bottomA img, .right-bottomB img, 
+.right-bottomC img, .right-bottomD img{
+    border-radius: 0.3rem;
+}
+.right-bottom .right-bottomA p , .right-bottomB p, 
+.right-bottomC p, .right-bottomD p{
+    font-size: 0.85rem;
+    color: darkgray;
+    line-height: 1.5rem;
+    margin: -5.5rem 0 0 9rem;
+   
+}
+.right-bottom .right-bottomA hr, .right-bottomB hr, 
+.right-bottomC hr, .right-bottomD hr{
+    height: 0.1px; 
+    background-color: darkgrey;
+    border: none;
+    margin: 2.4rem 0;
+}
+.right-bottom .right-bottomA h5, .right-bottomB h5, 
+.right-bottomC h5, .right-bottomD h5{
+    color: darkgray;
+    font-size: 0.9rem;
+    margin-top: 1.8rem;
+}
+.right-bottom .btn{
+    width: 9rem;
+    height: 2.5rem;
+    border: none;
+    background-color: #25a2c3;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    margin-top: 2rem;
+}
+
+/* footer */
+
+footer{
+   margin-top: 2rem;
+}
+.footer-text hr{
+    height: 0.1px;
+    border: none;
+    background-color: darkgray;
+}
+.footer-text p{
+    color: darkgray;
+    margin-top: 2rem;
+}
+.footer-text a{
+    color: #fff;
+}
+
+/* media quries */
+
+@media only screen and (max-width:992px){
+    #my-navigation .navbar-brand{
+        font-size: 1.9rem;
+        font-weight: 600;
+        padding: 0;
+    }
+    #my-navigation a{
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 0.4rem;
+    }
+    .banner h1{
+        font-size: 1.8rem;
+    }
+    .banner p{
+        font-size: 1rem;
+    }
+    .box h2{
+        font-size: 1.3rem;
+    }
+    .box .fa{
+        font-size: 3rem;
+    }
+    .box p{
+        font-size: 0.9rem;
+    }
+    .left-bottom .left-left, .left-right{
+        padding: 0 2rem;
+    }
+    .right-bottom .right-bottomA h5, .right-bottomB h5, 
+    .right-bottomC h5, .right-bottomD h5{
+        margin-top: 4rem;
+    }
+    .right-bottomA hr{
+        position: relative;
+        top: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+    #my-navigation .navbar-brand{
+        font-size: 1.6rem;
+    }
+    #my-navigation .logo{
+        padding: 6px 12px;
+    }
+    #my-navigation a{
+        font-size: 1rem;
+    }
+    .banner h1{
+        font-size: 1.5rem;
+    }
+    .banner p{
+        font-size: 0.9rem;
+        margin: 2rem 0 2rem 0;
+        line-height: 1.5rem;
+    }
+    .three-section .box{
+        padding: 1rem 1rem;
+    }
+}
